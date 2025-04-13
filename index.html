@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha & Co.</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/5889/5889003.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- Navbar Section -->
+<nav class="bg-gradient-to-r from-white to-lime-200 fixed w-full z-20 top-0 start-0">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://cdn-icons-png.flaticon.com/512/5889/5889003.png" class="h-12" alt="Matcha & Co. Logo">
+        <span class="self-center text-3xl font-semibold whitespace-nowrap text-black">Matcha & Co.</span>
+      </a>
+      <div class="flex md:order-2 space-x-4 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="bg-lime-600 hover:bg-lime-700 text-white font-semibold px-6 py-2 rounded-lg transition">Order Now</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-3 w-12 h-12 justify-center text-lg text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+          <li>
+            <a href="index.html" class="block py-3 px-4 text-black md:bg-transparent md:text-black md:p-0">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="block py-3 px-4 text-black md:hover:bg-transparent md:hover:text-lime-600 md:p-0">About</a>
+          </li>
+          <li>
+            <a href="menu.html" class="block py-3 px-4 text-black md:hover:bg-transparent md:hover:text-lime-600 md:p-0">Menu</a>
+          </li>
+          <li>
+            <a href="contact.html" class="block py-3 px-4 text-black md:hover:bg-transparent md:hover:text-lime-600 md:p-0">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="min-h-screen mt-10 py-24 bg-gradient-to-r from-white to-lime-200">
+    <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12">
+      <!-- Text Section -->
+      <div class="md:w-1/2 w-full text-center md:text-left">
+        <p class="text-lg uppercase tracking-wide text-gray-500 mb-4">Welcome to Matcha & Co.</p>
+        <h1 class="text-6xl md:text-7xl font-extrabold mb-6 leading-tight">
+            <span class="text-lime-600">Matcha</span> Made for You
+          </h1>                    
+        <p class="text-lg text-black mb-8">For matcha lovers, by matcha lovers. Experience matcha in every form, crafted to perfection. Pure, simple, green.</p>
+        <div class="flex flex-wrap gap-6">
+          <a href="menu.html" class="bg-lime-600 hover:bg-lime-700 text-white font-semibold px-6 py-3 rounded-lg transition">Order Now</a>
+          <a href="contact.html" class="border border-lime-600 text-lime-600 hover:bg-lime-100 font-semibold px-6 py-3 rounded-lg transition">Book a Table</a>
+        </div>
+      </div>
+      <!-- Image Section -->
+      <div class="md:w-1/2 w-full text-center">
+        <img src="https://japan-food.jetro.go.jp/greentea/uk/images/about_matcha.png" alt="Matcha Shot" class="w-full h-auto rounded-lg object-cover mx-auto">
+      </div>
+    </div>
+  </section>
+
+<!-- About Section -->
+<section class="py-24 bg-white">
+    <div class="max-w-screen-xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-12">
+      <!-- Image Section -->
+      <div class="md:w-1/2 w-full text-center">
+        <img src="https://matchastyle.com/cdn/shop/files/ST1_7413_HR_cfcc13d7-7822-4a76-85d9-7234b9eaf23b.jpg?crop=center&height=4016&v=1734883642&width=4016" alt="About Image" class="w-full h-auto rounded-lg object-cover mx-auto">
+      </div>
+      <!-- Text Section -->
+      <div class="md:w-1/2 w-full text-center md:text-left">
+        <p class="text-xl text-lime-600 font-semibold mb-4">About Us</p>
+        <h2 class="text-4xl font-bold text-black mb-6">The Art of Perfect Matcha</h2>
+        <p class="text-lg text-gray-500 mb-6">Matcha & Co. started from a love for authentic Japanese matcha and a simple goal—to share that love with others. From home-brewed drinks to opening our café, we’ve grown by staying true to quality, creativity, and community.</p>
+        <p class="text-lg text-gray-500 mb-6">We believe matcha is more than a drink—it’s a lifestyle. At Matcha & Co., we serve handcrafted beverages and treats made with premium ingredients, all in a cozy space where everyone can enjoy a taste of calm and comfort.</p>
+      </div>
+    </div>
+    <!-- What Makes Us Stand Out -->
+    <div class="max-w-screen-xl mx-auto px-4 md:px-6 text-center mt-12">
+        <h2 class="text-4xl font-bold text-black mb-12">What Makes Us Stand Out</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            <!-- Column 1 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center">
+                <img src="https://nishikiken.com/cdn/shop/products/Pure_Matcha_powder_non_sugar_type_60g.1.jpg?v=1592992123" alt="Quality Ingredients" class="w-full h-48 object-cover rounded-lg mb-6">
+                <h3 class="text-2xl font-semibold text-lime-600 mb-4">Quality Ingredients</h3>
+                <p class="text-lg text-gray-500 text-center">We use only the finest quality matcha, sourced directly from Japan, ensuring that each product is pure, vibrant, and packed with flavor.</p>
+            </div>
+            <!-- Column 2 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center">
+                <img src="https://offloadmedia.feverup.com/secretsingapore.co/wp-content/uploads/2022/06/23044345/Megan-SG-article-cover-2022-06-21T103657.607.png" alt="Expert Craftsmanship" class="w-full h-48 object-cover rounded-lg mb-6">
+                <h3 class="text-2xl font-semibold text-lime-600 mb-4">Expert Craftsmanship</h3>
+                <p class="text-lg text-gray-500 text-center">Every matcha beverage and dessert is crafted by our skilled team, who have mastered the art of preparing matcha to perfection.</p>
+            </div>
+            <!-- Column 3 -->
+            <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center">
+                <img src="https://modelina-architekci.com/wp-content/uploads/2023/04/MA247_Matcha_press-3-1920x1282.jpg" alt="Inviting Atmosphere" class="w-full h-48 object-cover rounded-lg mb-6">
+                <h3 class="text-2xl font-semibold text-lime-600 mb-4">Inviting Atmosphere</h3>
+                <p class="text-lg text-gray-500 text-center">Our cafe offers a cozy and inviting space where you can relax and enjoy your matcha experience in a welcoming environment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Best Seller Section -->
+<section class="py-12 bg-gradient-to-r from-white to-lime-200">
+    <div class="max-w-screen-xl mx-auto px-4 md:px-6 text-center">
+        <p class="text-xl text-lime-600 font-semibold mb-2">Menu</p>
+        <h2 class="text-4xl font-bold text-black mb-12">Our Best Sellers</h2>
+<!-- 4 Columns -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+    <!-- Product 1 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+        <img src="https://blenz.com/wp-content/uploads/2023/08/blenz-iced-matcha-latte.png" alt="Iced Matcha Latte" class="w-full h-49 object-cover rounded-t-lg mb-6">
+        <h3 class="text-2xl font-semibold text-black mb-4">Iced Matcha Latte</h3>
+        <p class="text-gray-500 mb-6">A creamy and smooth latte with rich matcha flavor, perfect for any time of day.</p>
+        <div class="flex-grow"></div> 
+        <p class="text-lg text-lime-600 font-semibold mb-4">₱115</p>
+    </div>
+    <!-- Product 2 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+        <img src="https://static.vecteezy.com/system/resources/previews/046/032/458/non_2x/green-matcha-soft-serve-ice-cream-cone-creamy-delicious-and-refreshing-summer-treat-free-png.png" alt="Matcha Ice Cream" class="w-full h-full object-cover rounded-t-lg mb-6">
+        <h3 class="text-2xl font-semibold text-black mb-4">Matcha Ice Cream</h3>
+        <p class="text-gray-500 mb-6">A refreshing and indulgent treat with smooth matcha ice cream, perfect for dessert lovers.</p>
+        <div class="flex-grow"></div> 
+        <p class="text-lg text-lime-600 font-semibold mb-4">₱80</p>
+    </div>
+    <!-- Product 3 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+        <img src="https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-173674000000000000/menu/items/7/item-900000000425924847_1694671630.png?size=medium" alt="Matcha Cheesecake" class="w-full h-full object-cover rounded-t-lg mb-6">
+        <h3 class="text-2xl font-semibold text-black mb-4">Matcha Cheesecake</h3>
+        <p class="text-gray-500 mb-6">A rich and creamy matcha cheesecake with a buttery graham cracker crust, a perfect blend of sweet and earthy.</p>
+        <div class="flex-grow"></div> 
+        <p class="text-lg text-lime-600 font-semibold mb-4">₱185</p>
+    </div>
+    <!-- Product 4 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+        <img src="https://bubbiesicecream.com/cdn/shop/products/ProductHero-Staged_Green-Tea_480x.png?v=1642685305" alt="Matcha Mochi" class="w-full h-full object-cover rounded-t-lg mb-6">
+        <h3 class="text-2xl font-semibold text-black mb-4">Matcha Mochi</h3>
+        <p class="text-gray-500 mb-6">Soft and chewy mochi filled with sweet matcha filling, the perfect snack to complement your tea.</p>
+        <div class="flex-grow"></div> 
+        <p class="text-lg text-lime-600 font-semibold mb-4">₱100</p>
+    </div>
+</div>
+<!-- Full Menu Section -->
+<h2 class="text-4xl font-bold text-black mt-12 mb-12 text-center">Menu</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-screen-xl mx-auto px-4 md:px-6">
+  <!-- Drink 1 -->
+  <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+    <p class="text-lime-600 font-semibold text-sm mb-2 uppercase">Drinks</p>
+    <img src="https://www.justonecookbook.com/wp-content/uploads/2022/12/Matcha-Latte-4598-I-1.jpg" alt="Hot Matcha Latte" class="w-full h-64 object-cover rounded-t-lg mb-6">
+    <h3 class="text-2xl font-semibold text-black mb-4">Hot Matcha Latte</h3>
+    <p class="text-gray-500 mb-6">Warm and comforting, made with ceremonial-grade matcha and creamy milk.</p>
+    <div class="flex-grow"></div>
+    <p class="text-lg text-lime-600 font-semibold mb-4">₱110</p>
+  </div>
+  <!-- Drink 2 -->
+  <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+    <p class="text-lime-600 font-semibold text-sm mb-2 uppercase">Drinks</p>
+    <img src="https://www.teafolly.com/wp-content/uploads/starbucks_green_tea_latte_frappuccino2-scaled.jpg" alt="Matcha Frappe" class="w-full h-64 object-cover rounded-t-lg mb-6">
+    <h3 class="text-2xl font-semibold text-black mb-4">Matcha Frappe</h3>
+    <p class="text-gray-500 mb-6">Blended icy goodness with a bold matcha twist, topped with whipped cream.</p>
+    <div class="flex-grow"></div>
+    <p class="text-lg text-lime-600 font-semibold mb-4">₱130</p>
+  </div>
+  <!-- Pastry 1  -->
+  <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+    <p class="text-lime-600 font-semibold text-sm mb-2 uppercase">Pastries</p>
+    <img src="https://www.heymatcha.com.au/cdn/shop/articles/how-to-make-matcha-croissant1.jpg?v=1615514315" alt="Matcha Croissant" class="w-full h-64 object-cover rounded-t-lg mb-6">
+    <h3 class="text-2xl font-semibold text-black mb-4">Matcha Croissant</h3>
+    <p class="text-gray-500 mb-6">Flaky buttery croissant filled with rich matcha cream.</p>
+    <div class="flex-grow"></div>
+    <p class="text-lg text-lime-600 font-semibold mb-4">₱90</p>
+  </div>
+  <!-- Pastry 2 -->
+  <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+    <p class="text-lime-600 font-semibold text-sm mb-2 uppercase">Pastries</p>
+    <img src="https://japanesetaste.com/cdn/shop/articles/how-to-make-matcha-roll-cake-swiss-roll-at-home-japanese-taste.jpg?v=1694486949&width=5760" alt="Matcha Roll Cake" class="w-full h-64 object-cover rounded-t-lg mb-6">
+    <h3 class="text-2xl font-semibold text-black mb-4">Matcha Roll Cake</h3>
+    <p class="text-gray-500 mb-6">Fluffy sponge cake rolled with matcha cream for the perfect bite.</p>
+    <div class="flex-grow"></div>
+    <p class="text-lg text-lime-600 font-semibold mb-4">₱95</p>
+  </div>
+  <!-- Dessert 1 -->
+  <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+    <p class="text-lime-600 font-semibold text-sm mb-2 uppercase">Desserts</p>
+    <img src="https://cdn.shopify.com/s/files/1/0670/8402/6167/files/2023-03-20_113542_480x480.png?v=1679280043" alt="Matcha Parfait" class="w-full h-64 object-cover rounded-t-lg mb-6">
+    <h3 class="text-2xl font-semibold text-black mb-4">Matcha Parfait</h3>
+    <p class="text-gray-500 mb-6">Layers of matcha jelly, soft cream, and crunchy toppings in a cup.</p>
+    <div class="flex-grow"></div>
+    <p class="text-lg text-lime-600 font-semibold mb-4">₱140</p>
+  </div>
+  <!-- Desserts 2 -->
+  <div class="bg-white p-6 rounded-lg shadow-lg text-justify flex flex-col">
+    <p class="text-lime-600 font-semibold text-sm mb-2 uppercase">Desserts</p>
+    <img src="https://www.justonecookbook.com/wp-content/uploads/2022/11/Green-Tea-Pudding-9889-2-I-1.jpg" alt="Matcha Pudding" class="w-full h-64 object-cover rounded-t-lg mb-6">
+    <h3 class="text-2xl font-semibold text-black mb-4">Matcha Pudding</h3>
+    <p class="text-gray-500 mb-6">Silky smooth pudding infused with deep matcha flavor.</p>
+    <div class="flex-grow"></div>
+    <p class="text-lg text-lime-600 font-semibold mb-4">₱85</p>
+  </div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-12 bg-white">
+    <div class="max-w-screen-md mx-auto px-4 md:px-6">
+      <!-- Section Header -->
+      <div class="text-center mb-12">
+        <p class="text-xl text-lime-600 font-semibold mb-2">Contact Us</p>
+        <h2 class="text-4xl font-bold text-black mb-2">Get In Touch</h2>
+        <p class="text-gray-500 text-lg">We’d love to hear from you! Send us a message or reach out directly.</p>
+      </div>
+      <!-- Contact Form -->
+      <form class="space-y-6 mb-10">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+          <input type="text" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+          <input type="email" placeholder="you@email.com" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+          <input type="tel" placeholder="09XX-XXX-XXXX" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+          <textarea rows="5" placeholder="Type here..." class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600"></textarea>
+        </div>
+        <button type="submit" class="bg-lime-600 hover:bg-lime-700 text-white font-semibold px-6 py-3 rounded-lg transition w-full">Submit</button>
+      </form>
+      <!-- Contact Info -->
+       <div class="space-y-8 text-center">
+        <div class="flex items-center justify-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12l-4-4-4 4m8 0l-4 4-4-4" />
+            </svg>
+            <p class="text-gray-600 text-lg">hello@matchaandco.ph</p>
+        </div>    
+        <div class="flex items-center justify-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm6 0h10a2 2 0 012 2v4m-2 4v6a2 2 0 01-2 2H9m12-10h.01" />
+            </svg>
+            <p class="text-gray-600 text-lg">(+63) 912 345 6789</p>
+        </div>
+        <div class="flex items-center justify-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 10.5C21 16 12 22 12 22S3 16 3 10.5a9 9 0 0118 0z" />
+                <circle cx="12" cy="10.5" r="3" fill="currentColor" />
+            </svg>
+            <p class="text-gray-600 text-lg">11th Ave. corner 30th Street, Bonifacio Global City</p>
+        </div>
+    </div>
+</div>
+</section>
+
+</body>
+</html>

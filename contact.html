@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/5889/5889003.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav class="bg-gradient-to-r from-white to-lime-200 fixed w-full z-20 top-0 start-0">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://cdn-icons-png.flaticon.com/512/5889/5889003.png" class="h-12" alt="Matcha & Co. Logo">
+        <span class="self-center text-3xl font-semibold whitespace-nowrap text-black">Matcha & Co.</span>
+      </a>
+      <div class="flex md:order-2 space-x-4 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="bg-lime-600 hover:bg-lime-700 text-white font-semibold px-6 py-2 rounded-lg transition">Order Now</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-3 w-12 h-12 justify-center text-lg text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+          <li>
+            <a href="index.html" class="block py-3 px-4 text-black md:bg-transparent md:text-black md:p-0">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="block py-3 px-4 text-black md:hover:bg-transparent md:hover:text-lime-600 md:p-0">About</a>
+          </li>
+          <li>
+            <a href="menu.html" class="block py-3 px-4 text-black md:hover:bg-transparent md:hover:text-lime-600 md:p-0">Menu</a>
+          </li>
+          <li>
+            <a href="contact.html" class="block py-3 px-4 text-black md:hover:bg-transparent md:hover:text-lime-600 md:p-0">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="mt-12 py-24 bg-white">
+    <div class="max-w-screen-md mx-auto px-4 md:px-6">
+      <!-- Section Header -->
+      <div class="text-center mb-12">
+        <p class="text-xl text-lime-600 font-semibold mb-2">Contact Us</p>
+        <h2 class="text-4xl font-bold text-black mb-2">Get In Touch</h2>
+        <p class="text-gray-500 text-lg">We’d love to hear from you! Send us a message or reach out directly.</p>
+      </div>  
+
+      <!-- Contact Form -->
+      <form class="space-y-6 mb-12">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+          <input type="text" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600">
+        </div> 
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+          <input type="email" placeholder="you@email.com" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+          <input type="tel" placeholder="09XX-XXX-XXXX" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600">
+        </div> 
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+          <textarea rows="5" placeholder="Type here..." class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-lime-600"></textarea>
+        </div> 
+        <button type="submit" class="bg-lime-600 hover:bg-lime-700 text-white font-semibold px-6 py-3 rounded-lg transition w-full">Submit</button>
+      </form>  
+
+      <!-- Contact Info -->
+      <div class="space-y-8 text-center">
+        <div class="flex items-center justify-center gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12l-4-4-4 4m8 0l-4 4-4-4" />
+          </svg>
+          <p class="text-gray-600 text-lg">hello@matchaandco.ph</p>
+        </div>           
+        <div class="flex items-center justify-center gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm6 0h10a2 2 0 012 2v4m-2 4v6a2 2 0 01-2 2H9m12-10h.01" />
+          </svg>
+          <p class="text-gray-600 text-lg">(+63) 912 345 6789</p>
+        </div>
+        <div class="flex items-center justify-center gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-lime-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 10.5C21 16 12 22 12 22S3 16 3 10.5a9 9 0 0118 0z" />
+            <circle cx="12" cy="10.5" r="3" fill="currentColor" />
+          </svg>
+          <p class="text-gray-600 text-lg">11th Ave. corner 30th Street, Bonifacio Global City</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
